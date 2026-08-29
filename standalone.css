@@ -1,0 +1,4 @@
+@import url('./src/styles.css');
+
+.stage{display:none}.stage.active{display:block}.bigicon{font-size:24px;color:var(--green)}
+.upload.has-file{border-style:solid;background:#f1f8f4}.confirmation{display:block;margin-top:15px;padding-top:15px;border-top:1px solid #cee0d7}.confirmation input{height:auto;margin-right:8px}.report-actions>div{display:flex;flex-direction:column}.report-actions>div span{font-size:12px}.report-header>div:last-child{display:flex;flex-direction:column}.report-result>b{font-size:38px;color:var(--green)}
