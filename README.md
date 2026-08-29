@@ -107,6 +107,11 @@ The interface uses five illustrative welding criteria:
 
 These criteria are included to demonstrate the product interaction. Before any formal pilot, the prototype must be mapped to a current, institution-approved competency standard and reviewed by qualified trade assessors.
 
+### Live Camera Capture and Liveness Verification
+
+While the prototype currently allows users to upload a pre-recorded video for demonstration and testing purposes, the proposed production system will implement **in-app camera capture with liveness detection**. Instead of allowing users to upload externally recorded videos, the application will capture the user directly through the device camera during the verification process. This approach is intended to reduce fraudulent submissions, including the use of pre-recorded videos, manipulated media, deepfakes, or AI-generated content. The system will use liveness verification to determine whether the captured subject is a real, present user rather than a replayed or artificially generated representation, thereby improving the security, authenticity, and reliability of the verification process.
+
+
 ## Run the prototype
 
 No account, API key, model access or installation is required.
