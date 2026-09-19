@@ -4,8 +4,6 @@
 
 > **Positioning:** Built for Africa, validated country by country. Proofmark is continent-wide in ambition, while every pilot must use the standards and authorised assessment processes of the country in which it operates.
 
-**Live demonstration:** [https://tr3ent.github.io/proofmark-prototype/](https://tr3ent.github.io/proofmark-prototype/)
-
 Proofmark is an application-stage prototype that demonstrates how informally trained artisans could submit video evidence of their work, have that evidence mapped to a recognised competency standard, and receive a human-reviewed assessment report.
 
 The platform is designed to support Recognition of Prior Learning (RPL). It does **not** replace qualified assessors or issue certificates independently.
