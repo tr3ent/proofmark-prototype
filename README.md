@@ -2,6 +2,10 @@
 
 **AI-assisted practical skills assessment for Africa's informal workforce.**
 
+> **Positioning:** Built for Africa, validated country by country. Proofmark is continent-wide in ambition, while every pilot must use the standards and authorised assessment processes of the country in which it operates.
+
+**Live demonstration:** [https://tr3ent.github.io/proofmark-prototype/](https://tr3ent.github.io/proofmark-prototype/)
+
 Proofmark is an application-stage prototype that demonstrates how informally trained artisans could submit video evidence of their work, have that evidence mapped to a recognised competency standard, and receive a human-reviewed assessment report.
 
 The platform is designed to support Recognition of Prior Learning (RPL). It does **not** replace qualified assessors or issue certificates independently.
@@ -35,6 +39,16 @@ They gain structured, criterion-level evidence that can make assessment review m
 ### Employers and procurement organisations
 
 They gain a more consistent way to verify practical trade skills after certification by the responsible authority.
+
+## Business model
+
+Proofmark is designed around multiple revenue sources so that access does not depend entirely on an artisan's ability to pay:
+
+- **Affordable artisan subscriptions** for assessment preparation, guided evidence capture and reusable skills profiles
+- **Institutional licences and per-assessment fees** for accredited assessment centres, training institutions and employers
+- **Sponsored access programmes** funded by governments, employers, development organisations or donors
+
+The pricing and willingness-to-pay assumptions have not yet been validated and remain part of the project's next research phase.
 
 ## What the prototype demonstrates
 
@@ -126,6 +140,16 @@ No account, API key, model access or installation is required.
 
 The prototype can also be served using any basic static web server.
 
+### Recommended demonstration route
+
+1. Read the product overview and beneficiary cards.
+2. Record the demonstration consent and continue to evidence capture.
+3. Choose **Use sample evidence**.
+4. Review the simulated criterion-level analysis.
+5. Change at least one assessor decision to demonstrate human control.
+6. Confirm the assessor declaration and generate the evidence report.
+7. Review the business model and responsible development roadmap below the demo.
+
 ## Technology
 
 The reviewer-facing prototype is deliberately lightweight:
@@ -156,6 +180,10 @@ Not yet completed:
 - Validation against qualified human assessors
 - Partnership or endorsement from TEVETA or another certifying authority
 - Production security, identity and data-governance infrastructure
+
+## Market-entry approach
+
+Proofmark is intended to begin with one trade, one approved competency standard and one country-level institutional partner. The platform would only expand after local validation. This avoids treating Africa as one regulatory market and allows each implementation to respect national qualification frameworks, languages and certification rules.
 
 ## Validation required
 

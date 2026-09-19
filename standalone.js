@@ -29,3 +29,4 @@ $('#video').onchange=e=>{const f=e.target.files[0];if(f){$('#fileTitle').textCon
 $('#sample').onclick=()=>{$('#fileTitle').textContent='demo-welding-assessment.mp4';$('#fileInfo').textContent='18.4 MB • Sample evidence ready';$('#analyse').disabled=false;$('#uploadBox').classList.add('has-file')};
 $('#analyse').onclick=()=>{setStage(2);$('#analysing').hidden=false;$('#analysisResults').hidden=true;setTimeout(()=>{$('#analysing').hidden=true;$('#analysisResults').hidden=false},1700)};
 $('#confirm').onchange=e=>$('#reportBtn').disabled=!e.target.checked;$('#reportBtn').onclick=buildReport;$('#reset').onclick=()=>location.reload();renderData();renderSteps();
+$('#consent').onchange=e=>$('#candidateContinue').disabled=!e.target.checked;
